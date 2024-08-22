@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Sheet0-MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Sheet0-MCU.SchDoc|FileName=Sheet1-driver.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Sheet0-MCU.SchDoc|FileName=Sheet2-power.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Sheet0-MCU.SchDoc|FileName=Sheet3-can.SchDoc|SheetNumber=4
