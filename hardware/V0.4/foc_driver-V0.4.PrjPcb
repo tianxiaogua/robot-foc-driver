@@ -108,7 +108,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GOXVVRVX
 
 [Document5]
-DocumentPath=..\..\..\..\adlib\base.PcbLib
+DocumentPath=..\..\..\adlib\antenna.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -122,10 +122,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=TGFSWSKF
+DocumentUniqueId=
 
 [Document6]
-DocumentPath=..\..\..\..\adlib\base.SCHLIB
+DocumentPath=..\..\..\adlib\antenna.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -139,10 +139,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QNLLLQVH
+DocumentUniqueId=PASHKOQL
 
 [Document7]
-DocumentPath=..\..\..\..\adlib\Connectors.PcbLib
+DocumentPath=..\..\..\adlib\base.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -159,7 +159,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\..\..\..\adlib\Connectors.SCHLIB
+DocumentPath=..\..\..\adlib\base.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -173,10 +173,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QNLLLQVH
 
 [Document9]
-DocumentPath=..\..\..\..\adlib\PB-Chip.PcbLib
+DocumentPath=..\..\..\adlib\Connectors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -193,7 +193,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=..\..\..\..\adlib\PB-Chip.SCHLIB
+DocumentPath=..\..\..\adlib\Connectors.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -207,10 +207,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=CHUETWVM
 
 [Document11]
-DocumentPath=..\..\..\..\adlib\power-chip.PcbLib
+DocumentPath=..\..\..\adlib\PB-Chip.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -227,7 +227,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=..\..\..\..\adlib\power-chip.SCHLIB
+DocumentPath=..\..\..\adlib\PB-Chip.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -241,27 +241,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=OTCSTVQT
 
 [Document13]
-DocumentPath=..\..\..\..\adlib\singlechip.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MHNENNMS
-
-[Document14]
-DocumentPath=..\..\..\..\adlib\singlechip.SCHLIB
+DocumentPath=..\..\..\adlib\power-chip.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -277,8 +260,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document14]
+DocumentPath=..\..\..\adlib\power-chip.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LQFABOUL
+
 [Document15]
-DocumentPath=..\..\..\..\adlib\transistor.PcbLib
+DocumentPath=..\..\..\adlib\sensor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -295,7 +295,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=..\..\..\..\adlib\transistor.SCHLIB
+DocumentPath=..\..\..\adlib\sensor.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WQCPHPCB
+
+[Document17]
+DocumentPath=..\..\..\adlib\singlechip.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -311,14 +328,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
-DocumentPath=Sheet3-can.SchDoc
+[Document18]
+DocumentPath=..\..\..\adlib\singlechip.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -326,7 +343,41 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YNNHNUSU
+DocumentUniqueId=ACHTMWJB
+
+[Document19]
+DocumentPath=..\..\..\adlib\transistor.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document20]
+DocumentPath=..\..\..\adlib\transistor.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WGIHJLWW
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for V3\Design Rule Check - PCB.html
@@ -490,7 +541,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Mi All-in-One Laser Printer K200 [0094]
+TargetPrinter=导出为WPS PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1326,27 +1377,27 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration_Name1=OutputConfigurationParameter1
-Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name2=OutputConfigurationParameter2
-Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name3=OutputConfigurationParameter3
-Configuration_Item3=CArc=Full|CFill=Full|Comment=Draft|Coordinate=Draft|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=TopOverlay|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Draft|Coordinate=Draft|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=TopOverlay|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name4=OutputConfigurationParameter4
-Configuration_Item4=CArc=Draft|CFill=Draft|Comment=Draft|Coordinate=Draft|CPad=Draft|CRegion=Draft|CText=Draft|CTrack=Draft|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=TopLayer|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item4=CArc=Draft|CFill=Draft|Comment=Draft|Coordinate=Draft|CPad=Draft|CRegion=Draft|CText=Draft|CTrack=Draft|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=TopLayer|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name5=OutputConfigurationParameter5
-Configuration_Item5=CArc=Draft|CFill=Draft|Comment=Draft|Coordinate=Draft|CPad=Draft|CRegion=Draft|CText=Draft|CTrack=Draft|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=BottomLayer|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item5=CArc=Draft|CFill=Draft|Comment=Draft|Coordinate=Draft|CPad=Draft|CRegion=Draft|CText=Draft|CTrack=Draft|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=BottomLayer|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name6=OutputConfigurationParameter6
-Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name7=OutputConfigurationParameter7
-Configuration_Item7=CArc=Draft|CFill=Draft|Comment=Draft|Coordinate=Draft|CPad=Draft|CRegion=Draft|CText=Draft|CTrack=Draft|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=BottomOverlay|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item7=CArc=Draft|CFill=Draft|Comment=Draft|Coordinate=Draft|CPad=Draft|CRegion=Draft|CText=Draft|CTrack=Draft|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=BottomOverlay|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name8=OutputConfigurationParameter8
-Configuration_Item8=CArc=Draft|CFill=Draft|Comment=Draft|Coordinate=Draft|CPad=Draft|CRegion=Draft|CText=Draft|CTrack=Draft|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=KeepOutLayer|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item8=CArc=Draft|CFill=Draft|Comment=Draft|Coordinate=Draft|CPad=Draft|CRegion=Draft|CText=Draft|CTrack=Draft|CVia=Hidden|Designator=Draft|Dimension=Draft|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Draft|FFill=Draft|FPad=Draft|FRegion=Draft|FText=Draft|FTrack=Draft|FVia=Hidden|Layer=KeepOutLayer|Polygon=Draft|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name9=OutputConfigurationParameter9
-Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name10=OutputConfigurationParameter10
-Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name11=OutputConfigurationParameter11
-Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 Configuration_Name12=OutputConfigurationParameter12
-Configuration_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\Code\wheel-leg-balancing-robot\foc_driver\hardware project\V1development\PCB.PcbDoc
+Configuration_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\CodeBase\robot-foc-driver\hardware\V0.4\PCB.PcbDoc
 
